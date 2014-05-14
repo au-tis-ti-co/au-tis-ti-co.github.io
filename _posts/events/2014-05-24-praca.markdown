@@ -1,0 +1,24 @@
+---
+layout: events
+title:  "Autístico # 0.1"
+categories: events
+event: 24/05
+day: 24
+month: Maio
+where: Praça da Alegria F.C.
+sub-event: matrecos ou matraquilhos
+address: Av. Rodrigues de Freitas 207 r/c
+city: Porto
+price: entrada livre  
+artists:
+- <a href="../../artist/chalo">Chalo Correia</a> | 22h <br>
+- <a href="../../artist/ift">Instituto Fonográfico Tropical</a> | 23h <br>
+social:
+- http://www.facebook.com/autistico
+image: venues/praca.png
+---
+
+- [<strong>Chalo Correia</strong>] (../../artist/chalo) | concerto | semba, rebita 
+- [<strong>Instituto Fonográfico Tropical</strong>] (../../artist/ift) | música ambiente
+
+

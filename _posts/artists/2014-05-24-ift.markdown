@@ -1,0 +1,14 @@
+---
+layout: artists
+title:  "Instituto Fonográfico Tropical"
+nation: AG
+categories: artist
+images:
+- artists/ift.png
+event: 24/05
+social:
+- https://www.facebook.com/pages/Instituto-Fonogr%C3%A1fico-Tropical/1498790707014317
+---
+
+Sessão de contorcionismo musical entre duas vogais, do Semba para o Samba, passando a jusante de uma tranche de Cúmbias folgadas. De repertório anglo-saxónico escasso, solicita-se compreensão a quem é intolerante a forrobodós de baixas latitudes.
+

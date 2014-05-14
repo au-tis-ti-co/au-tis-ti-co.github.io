@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+
+
+<div class="content-page row artists-page">
+	<div class="col-md-6 col-sm-6 col-lg-6">
+		<img src="/assets/images/{{ page.images[0] }}" class="img-responsive gray" alt="{{ page.title }}">
+	</div>
+	<div class="col-md-5 col-sm-5 col-lg-5">
+		<h2>{{ page.title }} <strong>[{{ page.nation }}]</strong> </h2>
+
+		{{ content }}
+
+			{% for events in site.posts %}
+			{% if page.event == events.event and events.layout == 'events' %} 
+			<h4><a href="{{ events.url }}"> <strong> {{ events.day }} {{ events.month }}</strong> <br> {{ events.where }} <br> {{ events.price }}</a></h4>
+			{% endif %}
+			{% endfor %}
+
+	</div>
+	<div class="col-md-1 col-sm-1 col-lg-1 social">
+		<a href="{{ page.social[0] }}" target="_blank">f</a> 
+	</div>
+</div>
+<div class="clearfix"></div>
