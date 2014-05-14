@@ -7,38 +7,113 @@
         <meta name="viewport" content="width=device-width">
 
         <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
 
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/assets/css/estilinhos.css">
+
+         <script src="/bower_components/less.js/dist/less-1.7.0.min.js" type="text/javascript"></script>
+         <script src="/bower_components/jquery/dist/jquery.js"></script>
+         <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- This following line needed in the case of setting the plugin option `scrollOverflow` to `true` -->
+     
 
     </head>
     <body>
 
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
+
+        <div class="container main" id="fullpage">
+          
+          <div class="row" id="top">
+            <div class="col-md-12">
+              <h1 class="title"><a href="/">{{ site.name }}</a></h1>
+            </div>
+          </div>
+          
+          <div class="main-menu" >
+
+            <div class="col-md-6 col-lg-6 out-menu">
+ 
+                <ul >
+                  <li data-menuanchor="eventos"><a href="#eventos">eventos</a></li>
+                  <li data-menuanchor="autisticos"><a href="#autisticos">autísticos</a></li>
+                  <li data-menuanchor="projecto"><a href="#projecto">projecto</a></li>
+                 
+                </ul>
+  
+            </div>
+  </div>
+    <div class="clearfix"></div>
+
+          <div class="main-content  ">
+          {{ content }}
           </div>
 
-          {{ content }}
+          <div class="col-lg-12">
+<div id="eventos">
+  <ul class="row main-events">
+    <li class="col-md-2 first separador">eventos</li>
+    {% for events in site.posts reversed %}
+      {% if events.layout == 'events' %}
 
-          <div class="footer">
-            <div class="contact">
-              <p>
-                Your Name<br />
-                What You Are<br />
-                you@example.com
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-                <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
-              </p>
+          <li class="col-lg-6 item">
+            
+              
+              <div class="front">
+                <a href="{{ events.url }}"> 
+                <h1>{{ events.day }} | {{ events.month }}</h1>
+                <h5>{{ events.title }}</h5>
+                <h3>{{ events.artists }}</h3>
+                <h4>{{ events.where }} | {% if events.sub-event %} {{ events.sub-event }} {% endif %} | {{ events.price }}</h4>
+                </a>
+              </div>
+              <div class="background">
+                <img src="/assets/images/{{ events.image }}" class="img-responsive" alt="{{ events.title }}">
+              </div>
+            
+          </li>
+        {% endif %}
+     {% endfor %}
+    </ul>
+ </div>
+    <div class="clearfix"></div>
+    <div id="autisticos" > 
+      <ul class="row main-artists">
+        <li class="col-md-2  separador" >autísticos</li>
+        {% for artists in site.posts reversed %}
+          {% if artists.layout == 'artists' %}
+            <li class="col-lg-4">
+              <a href="{{ artists.url }}">
+              <img src="/assets/images/{{ artists.images[0] }}" class="img-responsive" alt="{{ artists.title }}">
+              <h4>{{ artists.title }} | [{{ artists.nation }}] | {{ artists.event }}</h4>
+            </a></li>
+          {% endif %}
+      {% endfor %}
+    </ul>
+    </div>
+
+    <div id="projecto">
+       
+       <ul class="row projecto">
+      <li class="col-md-2  separador" >Projecto</li>
+          <li class="col-lg-8 col-lg-offset-2">
+          O ‘Autístico’ pretende apresentar uma série de concertos individuais aos sábados à tarde-noite em espaços ligados ao movimento associativo do Porto, a partir do mês de Maio de 2014.
+        </li>
+    </ul>
+              
+          </div>
+</div>
+
+          <div class="clearfix"></div>
+          <div class="row footer">
+            <div class="col-lg-12">
+              <a href="#">projectoautistico@gmail.com</a>
             </div>
           </div>
         </div>
+        
+
 
     </body>
 </html>
+
+

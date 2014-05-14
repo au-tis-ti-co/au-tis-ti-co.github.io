@@ -1,0 +1,18 @@
+---
+layout: artists
+title:  "O Gringo Sou Eu"
+nation: BR
+categories: artist
+images:
+- artists/frank.png
+event: 07/06
+social:
+- 
+---
+
+O Gringo Sou Eu é o nome do projecto a solo de Frankão, brasileiro nascido em Angra dos Reis, a residir em Portugal desde 2010.
+
+No Brasil, dos sons que ecoam nas esquinas e nas vielas se fez músico. Chegado a Portugal, colocou-se na posição de ‘observador de comportamentos’ e criou, em Lisboa, O gringo Sou Eu, em cujos conteúdos residem cargas líricas incisivas e elementos percussivos e electrónicos que procuram retratar o seu quotidiano e visão ‘enquanto forasteiro’.
+
+Em 2013, voltou ao Porto e convidou outro ‘gringo’, DJ Jamba, para se juntar à festa. DJ Jamba ocupa-se do jogo electrónico enquanto que Frankão dispara a sua poesia contemplativa sem medos – ‘papo-reto’. Uma simbiose a não perder.  
+

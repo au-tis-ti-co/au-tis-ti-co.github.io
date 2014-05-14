@@ -1,0 +1,13 @@
+---
+layout: artists
+title:  "Jean Baptiste"
+nation: FR
+categories: artist
+images:
+- artists/jb.png
+event: 07/06
+social:
+- http://www.facebook.com/autistico
+---
+
+Surpresa!

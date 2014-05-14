@@ -1,0 +1,16 @@
+---
+layout: artists
+title:  "Chalo Correia "
+nation: AO
+categories: artist
+images:
+- artists/chalo.png
+event: 24/05
+social:
+- http://www.facebook.com/correia.chalo
+---
+
+Chalo Correia, cantor e compositor angolano da nova geração, desenvolve o seu trabalho dentro do conceito world music sem deixar perder a essência rítmica do panorama musical de Angola. 
+
+Actualmente a viver em Lisboa, apresenta-se pela primeira vez no Porto para tocar e cantar o semba, merengue, kilapanga e outros estilos ao sabor de novas dinâmicas sonoras..
+

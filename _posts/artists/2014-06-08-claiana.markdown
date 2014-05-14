@@ -1,0 +1,14 @@
+---
+layout: artists
+title:  "Claiana"
+nation: CV
+categories: artist
+images:
+- artists/claiana.png
+event: 07/06
+social:
+- 
+---
+
+“Claiana” é um termo criado pelo pai do Gui quando este, ainda criança e ainda em Cabo Verde, cantava sem que se percebesse uma palavra. Não deixou de fazer claiana e, hoje, enquanto canta e toca guitarra, chamam-lhe Gui Lee – uma alcunha fruto do seu fascínio nada assolapado pelo Bruce Lee.
+

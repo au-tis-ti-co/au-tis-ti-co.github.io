@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<div class="row content-page events-page">
+	
+	<div class=" col-md-5 col-sm-5 col-lg-5">
+		<img src="/assets/images/{{ page.image }}" class="img-responsive" alt="{{ page.title }}">
+		
+		
+
+	</div>
+
+	<div class="col-md-6 col-sm-6 col-lg-6">
+		<h1 >{{ page.day }} {{ page.month }}</h1>
+		<h5>{{ page.title }}</h5>
+		<h4 >{{ page.where }} 	{% if page.sub-event %}| {{ page.sub-event }}</h4>
+   {% endif %}
+		<h6 class="event-address">{{ page.address }}</h6>
+		<h3>{{ page.artists }}</h3>
+
+		{{ content }}
+	</div>
+
+	
+
+	<div class="col-md-1 col-sm-1 col-lg-1 social">
+		<a href="{{ page.social[0] }}" target="_blank">f</a> 
+	</div>
+
+</div>
