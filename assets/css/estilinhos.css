@@ -6018,6 +6018,12 @@ h6 {
   width: 88%;
   margin: 20px;
 }
+.main-events .front a {
+  color: #000;
+}
+.main-events .front a:hover h3 {
+  color: #ea4f0a;
+}
 .main-events li h1,
 .main-events li h2,
 .main-events li h3,
@@ -6074,6 +6080,9 @@ h6 {
 .main-artists a:hover h5,
 .main-artists a:hover h6 {
   color: #ea4f0a;
+}
+.main-artists li {
+  margin-bottom: 20px;
 }
 .projecto {
   padding-top: 10px;

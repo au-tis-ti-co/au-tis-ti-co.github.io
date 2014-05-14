@@ -13,6 +13,9 @@ price: entrada livre
 artists:
 - <a href="../../artist/chalo">Chalo Correia</a> | 22h <br>
 - <a href="../../artist/ift">Instituto Fonográfico Tropical</a> | 23h <br>
+artists-nolinks:
+- Chalo Correia | 22h <br>
+- Instituto Fonográfico Tropical | 23h <br> 
 social:
 - http://www.facebook.com/autistico
 image: venues/praca.png

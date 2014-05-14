@@ -15,6 +15,10 @@ artists:
 - <a href="../../artist/frank">O Gringo Sou Eu</a> | 18h <br>
 - <a href="../../artist/claiana">Claiana</a> | 19h <br>
 - <a href="../../artist/jb">Jean Batiste</a> | 16h/24h <br>
+artists-nolinks:
+- O Gringo Sou Eu | 18h <br>
+- Claiana | 19h <br>
+- Jean Batiste | 16h/24h <br>
 image: venues/guindalense.png
 ---
 
