@@ -21,4 +21,15 @@ image: venues/praca.png
 - [<strong>Chalo Correia</strong>] (../../artist/chalo) | concerto | semba, rebita 
 - [<strong>Instituto Fonográfico Tropical</strong>] (../../artist/ift) | música ambiente
 
+<br />
+<br />
+
+###### Coorganização e Apoio
+<div class="row">
+<div class="col-lg-3">
+<br />
+<img src="/assets/images/logos/pafc.png" class="img-responsive">
+</div>
+</div>
+
 

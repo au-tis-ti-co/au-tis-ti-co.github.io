@@ -22,6 +22,33 @@ image: venues/guindalense.png
 - [<strong>Claiana</strong>] (../../artist/claiana) | concerto | Cabo-verde, Portugal, Bruce Lee, Michael Jackson Kassav
 - [<strong>Jean Baptiste</strong>] (../../artist/jb) | música ambiente
 
+<br />
+<br />
+
+###### Apoio
+<div class="row">
+<div class="col-lg-2">
+<br />
+<img src="/assets/images/logos/gfc.png" class="img-responsive">
+</div>
+<div class="col-lg-4">
+<br />
+<img src="/assets/images/logos/cmp.png" class="img-responsive">
+</div>
+</div>
+
+<br />
+<br />
+
+###### União de Freguesias
+<div class="row">
+<div class="col-lg-8">
+<br />
+<img src="/assets/images/logos/uniao.png" class="img-responsive">
+</div>
+</div>
+
+
 
 
 
