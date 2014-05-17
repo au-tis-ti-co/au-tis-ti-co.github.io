@@ -24,7 +24,7 @@
         <div class="container main" id="fullpage">
           
           <div class="row" id="top">
-            <div class="col-lg-8 col-lg-offset-2">
+            <div class="col-lg-8 col-md-8 col-sm-12 col-lg-offset-2 col-md-offset-2">
               <a href="/"><h1 class="title"><img src="/assets/images/id/autistico.png" class="img-responsive" alt="autistico"></a>
               </h1>
             </div>
@@ -32,7 +32,7 @@
           
           <div class="main-menu" >
 
-            <div class="col-md-6 col-lg-6 out-menu">
+            <div class="col-md-8 col-lg-6 col-sm-12 out-menu">
  
                 <ul >
                   <li data-menuanchor="eventos"><a href="#eventos">eventos</a></li>
@@ -49,14 +49,14 @@
           {{ content }}
           </div>
 
-          <div class="col-lg-12">
+          <div class="col-lg-12 col-md-12">
 <div id="eventos">
   <ul class="row main-events">
-    <li class="col-md-2 first separador">eventos</li>
+    <li class=" col-lg-2 col-md-2 col-sm-3 first separador">eventos</li>
     {% for events in site.posts reversed %}
       {% if events.layout == 'events' %}
 
-          <li class="col-lg-6 item">
+          <li class="col-lg-6 col-md-6 col-sm-10 col-sm-offset-1 item">
             
               
               <div class="front">
@@ -79,10 +79,10 @@
     <div class="clearfix"></div>
     <div id="autisticos" > 
       <ul class="row main-artists">
-        <li class="col-md-2  separador" >autísticos</li>
+        <li class="col-md-2 col-sm-3 col-lg-2 separador" >autísticos</li>
         {% for artists in site.posts reversed %}
           {% if artists.layout == 'artists' %}
-            <li class="col-lg-4">
+            <li class="col-lg-4 col-md-6">
               <a href="{{ artists.url }}">
               <img src="/assets/images/{{ artists.images[0] }}" class="img-responsive" alt="{{ artists.title }}">
               <h4>{{ artists.title }} | [{{ artists.nation }}] | {{ artists.event }}</h4>
@@ -95,8 +95,8 @@
     <div id="projecto">
        
        <ul class="row projecto">
-      <li class="col-md-2  separador" >Projecto</li>
-          <li class="col-lg-8 col-lg-offset-2">
+      <li class="col-md-2 col-lg-2 col-sm-3 separador" >Projecto</li>
+          <li class="col-lg-8 col-md-8 col-lg-offset-2 col-md-offset-2">
           O ‘Autístico’ pretende apresentar uma série de concertos individuais aos sábados à tarde-noite em espaços ligados ao movimento associativo do Porto, a partir do mês de Maio de 2014.
           
         </li>
@@ -111,7 +111,7 @@
           <div class="row footer">
             <div class="col-lg-10 col-lg-offset-1">
              <ul>
-    <li class="col-md-2  separador" >Contacto</li>
+    <li class="col-md-2 col-lg-2 col-sm-3   separador" >Contacto</li>
           <li class="col-lg-8 col-lg-offset-2">
           <a href="mailto:projectoautistico@gmail.com">projectoautistico@gmail.com</a>
         </li>
@@ -120,8 +120,8 @@
               <br><br><br><br>
               <img src="/assets/images/id/desenho.png" class="img-responsive" alt="autistico">
               <br><br>
-              <div class="col-lg-8 col-lg-offset-2">
-              <p class="separador">impressão e projecto gráfico</p>
+              <div class="col-lg-8 col-md-8 col-lg-offset-2 col-md-offset-2">
+              <p class="separador">projecto gráfico e impressão</p>
               <a href="http://www.oficina-arara.org">www.oficina-arara.org</a> | <a href="mailto:arara@oficina-arara.org">arara@oficina-arara.org</a>
             </div>
           </div>

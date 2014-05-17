@@ -14,17 +14,17 @@ social:
 artists:
 - <a href="../../artist/frank">O Gringo Sou Eu</a> | 18h <br>
 - <a href="../../artist/claiana">Claiana</a> | 19h <br>
-- <a href="../../artist/jb">Jean Baptiste</a> | 16h/24h <br>
+- <a href="../../artist/jb">Dj Saudade Sistema</a> | 16h/24h <br>
 artists-nolinks:
 - O Gringo Sou Eu | 18h <br>
 - Claiana | 19h <br>
-- Jean Baptiste | 16h/24h <br>
+- Dj Saudade Sistema | 16h/24h <br>
 image: venues/guindalense.png
 ---
 
 - [<strong>O Gringo Sou Eu</strong>] (../../artist/frank) | concerto | papo-reto
 - [<strong>Claiana</strong>] (../../artist/claiana) | concerto | Cabo-verde, Portugal, Bruce Lee, Michael Jackson Kassav
-- [<strong>Jean Baptiste</strong>] (../../artist/jb) | música ambiente
+- [<strong>Dj Saudade Sistema</strong>] (../../artist/jb) | cheesy tropical
 
 <br />
 <br />
