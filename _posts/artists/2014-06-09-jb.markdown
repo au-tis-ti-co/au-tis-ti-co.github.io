@@ -1,6 +1,6 @@
 ---
 layout: artists
-title:  "Jean Baptiste"
+title:  "Dj Saudade Sistema"
 nation: FR
 categories: artist
 images:

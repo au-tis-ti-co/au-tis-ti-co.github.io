@@ -5954,6 +5954,16 @@ h6 {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+@media (min-width: 992px) and (max-width: 1199px) {
+  .main-menu li {
+    padding: 0px 55px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .main-menu li {
+    padding: 0px 71px;
+  }
+}
 .main-menu li a {
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
@@ -5985,6 +5995,16 @@ h6 {
   border-bottom: 5px solid #000;
   padding-bottom: 10px;
 }
+@media (min-width: 992px) and (max-width: 1199px) {
+  .main-events h1 {
+    font-size: 30px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .main-events h1 li {
+    margin-bottom: 20px;
+  }
+}
 .main-events h2 {
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 700;
@@ -6003,6 +6023,12 @@ h6 {
   padding-bottom: 10px;
   border-bottom: 5px solid #000;
 }
+@media (min-width: 992px) and (max-width: 1199px) {
+  .main-events h3 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+}
 .main-events h5 {
   padding-bottom: 10px;
   border-bottom: 5px solid #000;
@@ -6017,6 +6043,12 @@ h6 {
   padding: 20px;
   width: 88%;
   margin: 20px;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .main-events .front {
+    width: 85%;
+    padding: 15px;
+  }
 }
 .main-events .front a {
   color: #000;
