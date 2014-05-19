@@ -5906,6 +5906,16 @@ h1.title {
   letter-spacing: 30px;
   margin: 0px;
 }
+@media (min-width: 768px) and (max-width: 991px) {
+  h1.title {
+    padding: 40px 0px 40px 0px;
+  }
+}
+@media (max-width: 767px) {
+  h1.title {
+    padding: 20px 0px 20px 0px;
+  }
+}
 ul {
   list-style-type: none;
   margin: 0px;
@@ -5925,21 +5935,6 @@ h5,
 h6 {
   color: #000;
 }
-.separador {
-  margin: 0px auto 40px auto;
-  float: none;
-  text-align: center;
-  border-bottom: 5px solid #000;
-  padding: 0px 0px 10px 0px;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  font-size: 24px;
-  color: #000;
-}
-.out-menu {
-  margin: 0 auto;
-  float: none;
-}
 .main-menu {
   border-top: 5px solid #000;
   border-bottom: 5px solid #000;
@@ -5949,20 +5944,9 @@ h6 {
   margin-bottom: 20px;
 }
 .main-menu li {
-  float: left;
-  padding: 0px 46px;
+  text-align: center;
   text-transform: uppercase;
   letter-spacing: 2px;
-}
-@media (min-width: 992px) and (max-width: 1199px) {
-  .main-menu li {
-    padding: 0px 55px;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .main-menu li {
-    padding: 0px 71px;
-  }
 }
 .main-menu li a {
   font-size: 14px;
@@ -6000,8 +5984,19 @@ h6 {
     font-size: 30px;
   }
 }
+@media (max-width: 767px) {
+  .main-events h1 {
+    font-size: 20px;
+    padding-bottom: 5px;
+  }
+}
 @media (min-width: 768px) and (max-width: 991px) {
-  .main-events h1 li {
+  .main-events li {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .main-events li {
     margin-bottom: 20px;
   }
 }
@@ -6017,6 +6012,12 @@ h6 {
   text-transform: uppercase;
   font-size: 12px;
 }
+@media (max-width: 767px) {
+  .main-events h4 {
+    font-size: 10px;
+    margin-bottom: 0px;
+  }
+}
 .main-events h3 {
   line-height: 36px;
   margin-top: 10px;
@@ -6029,6 +6030,14 @@ h6 {
     line-height: 28px;
   }
 }
+@media (max-width: 767px) {
+  .main-events h3 {
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+  }
+}
 .main-events h5 {
   padding-bottom: 10px;
   border-bottom: 5px solid #000;
@@ -6036,6 +6045,11 @@ h6 {
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 500;
   margin-top: 10px;
+}
+@media (max-width: 767px) {
+  .main-events h5 {
+    font-size: 10px;
+  }
 }
 .main-events .front {
   position: absolute;
@@ -6048,6 +6062,12 @@ h6 {
   .main-events .front {
     width: 85%;
     padding: 15px;
+  }
+}
+@media (max-width: 767px) {
+  .main-events .front {
+    width: 81%;
+    padding: 10px;
   }
 }
 .main-events .front a {
@@ -6091,6 +6111,11 @@ h6 {
   padding-top: 10px;
   text-align: center;
 }
+@media (max-width: 767px) {
+  .main-artists h4 {
+    font-size: 17px;
+  }
+}
 .main-artists a h1,
 .main-artists a h2,
 .main-artists a h3,
@@ -6115,6 +6140,24 @@ h6 {
 }
 .main-artists li {
   margin-bottom: 20px;
+}
+.main-artists li.separador {
+  margin-bottom: 40px;
+}
+.separador {
+  margin: 0px auto 40px auto;
+  float: none;
+  text-align: center;
+  border-bottom: 5px solid #000;
+  padding: 0px 0px 10px 0px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 24px;
+  color: #000;
+}
+p.separador {
+  margin-bottom: 20px;
+  margin-top: 40px;
 }
 .projecto {
   padding-top: 10px;
@@ -6145,8 +6188,14 @@ h6 {
   border-bottom: 5px solid #000;
   padding-bottom: 17px;
 }
+@media (max-width: 767px) {
+  .events-page h1 {
+    margin-top: 20px;
+  }
+}
 .events-page h4 {
   text-transform: uppercase;
+  line-height: 23px;
 }
 .events-page h6 {
   border-bottom: 5px solid #000;
@@ -6157,6 +6206,16 @@ h6 {
   margin-top: 0px;
   padding-bottom: 10px;
   border-bottom: 5px solid #000;
+}
+@media (max-width: 767px) {
+  .events-page h3 {
+    font-size: 23px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .events-page h3 {
+    line-height: 32px;
+  }
 }
 .events-page a {
   color: #ea4f0a;

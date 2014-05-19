@@ -24,7 +24,7 @@
         <div class="container main" id="fullpage">
           
           <div class="row" id="top">
-            <div class="col-lg-8 col-md-8 col-sm-12 col-lg-offset-2 col-md-offset-2">
+            <div class="col-lg-8 col-md-8 col-sm-12 col-lg-offset-2 col-md-offset-2 col-sm-offset-0 col-xs-offset-0">
               <a href="/"><h1 class="title"><img src="/assets/images/id/autistico.png" class="img-responsive" alt="autistico"></a>
               </h1>
             </div>
@@ -32,16 +32,16 @@
           
           <div class="main-menu" >
 
-            <div class="col-md-8 col-lg-6 col-sm-12 out-menu">
+           
  
                 <ul >
-                  <li data-menuanchor="eventos"><a href="#eventos">eventos</a></li>
-                  <li data-menuanchor="autisticos"><a href="#autisticos">autísticos</a></li>
-                  <li data-menuanchor="projecto"><a href="#projecto">projecto</a></li>
+                  <li class="col-xs-4 col-sm-4 col-md-4 col-lg-4" data-menuanchor="eventos"><a href="#eventos">eventos</a></li>
+                  <li class="col-xs-4 col-sm-4 col-md-4 col-lg-4 " data-menuanchor="autisticos"><a href="#autisticos">autísticos</a></li>
+                  <li class="col-xs-4 col-sm-4 col-md-4 col-lg-4" data-menuanchor="projecto"><a href="#projecto">projecto</a></li>
                  
                 </ul>
   
-            </div>
+            
   </div>
     <div class="clearfix"></div>
 
@@ -82,7 +82,7 @@
         <li class="col-md-2 col-sm-3 col-lg-2 separador" >autísticos</li>
         {% for artists in site.posts reversed %}
           {% if artists.layout == 'artists' %}
-            <li class="col-lg-4 col-md-6">
+            <li class="col-lg-4 col-md-6 col-sm-10 col-sm-offset-1 col-md-offset-0 col-lg-offset-0 ">
               <a href="{{ artists.url }}">
               <img src="/assets/images/{{ artists.images[0] }}" class="img-responsive" alt="{{ artists.title }}">
               <h4>{{ artists.title }} | [{{ artists.nation }}] | {{ artists.event }}</h4>
@@ -120,10 +120,22 @@
               <br><br><br><br>
               <img src="/assets/images/id/desenho.png" class="img-responsive" alt="autistico">
               <br><br>
-              <div class="col-lg-8 col-md-8 col-lg-offset-2 col-md-offset-2">
-              <p class="separador">projecto gráfico e impressão</p>
-              <a href="http://www.oficina-arara.org">www.oficina-arara.org</a> | <a href="mailto:arara@oficina-arara.org">arara@oficina-arara.org</a>
-            </div>
+              <div class="col-lg-4 col-md-4 col-sm-4">
+                <p class="separador">design</p>
+                <p><a href="mailto:dayanadc@gmail.com">Dayana Lucas</a></p>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4">
+                <p class="separador">
+                impressão</p>
+                <p><a href="http://www.oficina-arara.org">www.oficina-arara.org</a> <br> <a href="mailto:arara@oficina-arara.org">arara@oficina-arara.org</a>
+                </p>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4">
+                <p class="separador">
+                web</p>
+                <p><a href="http://www.alfaiataria.org">www.alfaiataria.org</a> <br> <a href="mailto:ruisilva@alfaiataria.org">ruisilva@alfaiataria.org</a>
+                </p>
+              </div>
           </div>
         </div>
         
