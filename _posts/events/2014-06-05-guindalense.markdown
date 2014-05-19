@@ -31,11 +31,11 @@ image: venues/guindalense.png
 
 ###### Apoio
 <div class="row">
-<div class="col-lg-2">
+<div class="col-lg-2 col-md-3 col-sm-4 col-xs-3">
 <br />
 <img src="/assets/images/logos/gfc.png" class="img-responsive">
 </div>
-<div class="col-lg-4">
+<div class="col-lg-4 col-md-5 col-sm-7 col-xs-6">
 <br />
 <img src="/assets/images/logos/cmp.png" class="img-responsive">
 </div>
@@ -46,7 +46,7 @@ image: venues/guindalense.png
 
 ###### União de Freguesias
 <div class="row">
-<div class="col-lg-8">
+<div class="col-lg-8 col-md-9 col-sm-12">
 <br />
 <img src="/assets/images/logos/uniao.png" class="img-responsive">
 </div>
