@@ -5948,6 +5948,11 @@ h6 {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+@media (max-width: 767px) {
+  .main-menu li {
+    letter-spacing: 1px;
+  }
+}
 .main-menu li a {
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
@@ -6035,7 +6040,6 @@ h6 {
     font-size: 16px;
     line-height: 20px;
     padding-bottom: 10px;
-    margin-top: 0px;
   }
 }
 .main-events h5 {
