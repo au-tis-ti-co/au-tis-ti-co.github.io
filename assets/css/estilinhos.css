@@ -6110,10 +6110,11 @@ h6 {
   margin-top: 0px;
   padding-top: 10px;
   text-align: center;
+  font-size: 16px;
 }
 @media (max-width: 767px) {
   .main-artists h4 {
-    font-size: 17px;
+    font-size: 16px;
   }
 }
 .main-artists a h1,

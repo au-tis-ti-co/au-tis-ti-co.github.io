@@ -21,8 +21,8 @@ social:
 image: venues/praca.png
 ---
 
-- [<strong>Chalo Correia</strong>] (../../artist/chalo) | concerto | semba, rebita 
-- [<strong>Instituto Fonográfico Tropical</strong>] (../../artist/ift) | música ambiente
+- [<strong>Chalo Correia</strong>] (../../artist/chalo) | concerto | semba, merengue, kilapanga, e rebita 
+- [<strong>Instituto Fonográfico Tropical</strong>] (../../artist/ift) | tropicardias
 
 <br />
 <br />

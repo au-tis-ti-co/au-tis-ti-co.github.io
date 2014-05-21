@@ -1,6 +1,6 @@
 ---
 layout: artists
-title:  "O Gringo Sou Eu"
+title:  "O Gringo Sou Eu | feat. dj muquifo"
 nation: BR
 categories: artist
 images:
