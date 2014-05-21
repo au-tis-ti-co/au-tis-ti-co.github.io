@@ -5958,6 +5958,11 @@ h6 {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
 }
+@media (max-width: 767px) {
+  .main-menu li a {
+    font-size: 13px;
+  }
+}
 .content-page {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -6037,9 +6042,10 @@ h6 {
 }
 @media (max-width: 767px) {
   .main-events h3 {
-    font-size: 16px;
-    line-height: 20px;
-    padding-bottom: 10px;
+    font-size: 14px;
+    line-height: 18px;
+    padding-bottom: 5px;
+    margin-top: 5px;
   }
 }
 .main-events h5 {
@@ -6059,7 +6065,7 @@ h6 {
   position: absolute;
   background: rgba(255, 218, 84, 0.8);
   padding: 20px;
-  width: 88%;
+  width: 84%;
   margin: 20px;
 }
 @media (min-width: 992px) and (max-width: 1199px) {
