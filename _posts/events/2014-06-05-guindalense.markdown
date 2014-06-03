@@ -12,17 +12,17 @@ price: entrada livre | 4€ Jantar
 social:
 - http://www.facebook.com/autistico
 artists:
-- <a href="../../artist/frank">O Gringo Sou Eu | feat. Dj Muquifo</a> | 18h <br>
+- <a href="../../artist/frank">O Gringo Sou Eu </a> | 18h <br>
 - <a href="../../artist/claiana">Claiana</a> | 19h <br>
-- <a href="../../artist/jb">Saudade Sistema</a> | 16h/24h <br>
+- <a href="../../artist/jb">Saudade Sistema</a> | 17h/24h <br>
 artists-nolinks:
 - O Gringo Sou Eu | 18h <br>
 - Claiana | 19h <br>
-- Saudade Sistema | 16h/24h <br>
+- Saudade Sistema | 17h/24h <br>
 image: venues/guindalense.png
 ---
 
-- [<strong>O Gringo Sou Eu</strong>] (../../artist/frank) | concerto | MBQ (Música de Baixa Qualidade
+- [<strong>O Gringo Sou Eu</strong>] (../../artist/frank) | concerto | MBQ (Música de Baixa Qualidade)
 - [<strong>Claiana</strong>] (../../artist/claiana) | concerto | Cabo-verde, Portugal, Bruce Lee, Michael Jackson Kassav
 - [<strong>Dj Saudade Sistema</strong>] (../../artist/jb) | queijo tropical
 
